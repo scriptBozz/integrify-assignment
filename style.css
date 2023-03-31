@@ -1,0 +1,57 @@
+nav{
+    height: 10vh;
+    background-color: bisque;
+}
+.nav-div{
+   
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+    margin-top: 30px;
+   
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.section-div{
+    background-color: bisque;
+}
+.section-div p,h4{
+    margin: 0;
+    text-align: center;
+}
+section img{
+    width: 350px;
+    height: 25vh;
+}
+
+footer{
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;margin-top: 30px;
+    background-color: bisque;
+}
+.footer-menu-ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.foot-menu{
+border-right: 2px solid black;
+}
+
+.footer-contact p{
+  margin: 0;
+}
+.footer-about p,h3{
+    margin: 0;
+}
