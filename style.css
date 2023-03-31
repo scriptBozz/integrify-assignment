@@ -1,16 +1,10 @@
-nav{
-    height: 10vh;
-    background-color: bisque;
-}
-.nav-div{
-   
-}
+
 .nav-ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: azure;
-    margin-top: 30px;
+    list-style: none;
    
 }
 section{
@@ -34,19 +28,27 @@ section img{
 }
 
 footer{
-    height: 10vh;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;margin-top: 30px;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-top: 30px;
     background-color: bisque;
 }
 .footer-menu-ul{
     list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 .foot-menu{
 border-right: 2px solid black;
+
+}
+.footer-contact{
+    text-align: center ;
 }
 
 .footer-contact p{
@@ -54,9 +56,11 @@ border-right: 2px solid black;
 }
 .footer-about p,h3{
     margin: 0;
+    text-align: center;
 }
 
-@media (max-width:600px){
+@media (max-width: 680px ){
     footer{
-    flex-direction:column;}
+        flex-direction: column;
+    }
 }
