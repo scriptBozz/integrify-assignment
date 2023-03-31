@@ -55,3 +55,8 @@ border-right: 2px solid black;
 .footer-about p,h3{
     margin: 0;
 }
+
+@media (max-width:600px){
+    footer{
+    flex-direction:column;}
+}
